@@ -43,6 +43,7 @@ GameObject:
   - component: {fileID: 481579289996472376}
   - component: {fileID: 8555561030753515250}
   - component: {fileID: 508040741475795816}
+  - component: {fileID: 439496998677798860}
   m_Layer: 0
   m_Name: LeftRear
   m_TagString: Wheel
@@ -85,7 +86,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e5e2e494cfdc6940a68cc3c2fc4ac6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wheelModel: {fileID: 2160445726186866877}
+  wheelModel: {fileID: 2288739644199323171}
   steerableWheel: 0
   motorizedWheel: 1
   wheelState: 0
@@ -118,7 +119,7 @@ WheelCollider:
     m_ExtremumValue: 1
     m_AsymptoteSlip: 0.5
     m_AsymptoteValue: 0.75
-    m_Stiffness: 1
+    m_Stiffness: 2
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -128,6 +129,29 @@ WheelCollider:
   m_LayerOverridePriority: 0
   m_Enabled: 1
   m_ProvidesContacts: 0
+--- !u!136 &439496998677798860
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1102873102697298495}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1182540329037804131
 GameObject:
   m_ObjectHideFlags: 0
@@ -266,9 +290,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13083d7707027414e8ba068ffe93e7dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  motorTorque: 100
-  brakeTorque: 150
-  maxSpeed: 30
+  motorTorque: 300
+  brakeTorque: 400
+  maxSpeed: 120
   steeringAngle: 30
   steeringAngleAtMaxSpeed: 10
   wheels:
@@ -456,9 +480,10 @@ GameObject:
   - component: {fileID: 2160445726186866877}
   - component: {fileID: 558643756169856652}
   - component: {fileID: 1498574750037923599}
+  - component: {fileID: 3703871582904401085}
   m_Layer: 0
   m_Name: LeftRear (1)
-  m_TagString: Wheel
+  m_TagString: WheelModel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -531,6 +556,29 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!136 &3703871582904401085
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2288739644199323171}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5000002
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940698}
 --- !u!1 &2564136574446769978
 GameObject:
   m_ObjectHideFlags: 0
@@ -628,9 +676,10 @@ GameObject:
   - component: {fileID: 8172031586910192215}
   - component: {fileID: 4817877739054803154}
   - component: {fileID: 3592263762662140874}
+  - component: {fileID: 8877807020200467175}
   m_Layer: 0
   m_Name: LeftFront (1)
-  m_TagString: Wheel
+  m_TagString: WheelModel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -703,6 +752,29 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!136 &8877807020200467175
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3186083943499775202}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5000002
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940698}
 --- !u!1 &3374346348927640080
 GameObject:
   m_ObjectHideFlags: 0
@@ -714,9 +786,10 @@ GameObject:
   - component: {fileID: 4001691236808463290}
   - component: {fileID: 5812013330791195699}
   - component: {fileID: 5348746597543052431}
+  - component: {fileID: 6044885906462629751}
   m_Layer: 0
   m_Name: RIghtRear (1)
-  m_TagString: Wheel
+  m_TagString: WheelModel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -789,6 +862,29 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!136 &6044885906462629751
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3374346348927640080}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5000002
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940698}
 --- !u!1 &3853739409791156418
 GameObject:
   m_ObjectHideFlags: 0
@@ -801,6 +897,7 @@ GameObject:
   - component: {fileID: 4663691452584151791}
   - component: {fileID: 1409620579284045918}
   - component: {fileID: 118501354737876023}
+  - component: {fileID: 3286193155940512922}
   m_Layer: 0
   m_Name: LeftFront
   m_TagString: Wheel
@@ -843,7 +940,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e5e2e494cfdc6940a68cc3c2fc4ac6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wheelModel: {fileID: 8172031586910192215}
+  wheelModel: {fileID: 3186083943499775202}
   steerableWheel: 1
   motorizedWheel: 0
   wheelState: 0
@@ -886,6 +983,29 @@ WheelCollider:
   m_LayerOverridePriority: 0
   m_Enabled: 1
   m_ProvidesContacts: 0
+--- !u!136 &3286193155940512922
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3853739409791156418}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3998172111782330037
 GameObject:
   m_ObjectHideFlags: 0
@@ -1054,8 +1174,9 @@ GameObject:
   - component: {fileID: 2313391788363093908}
   - component: {fileID: 3002714720986490679}
   - component: {fileID: 9187127965209271765}
+  - component: {fileID: 732367291999791125}
   m_Layer: 0
-  m_Name: RIghtRear
+  m_Name: RightRear
   m_TagString: Wheel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1096,7 +1217,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e5e2e494cfdc6940a68cc3c2fc4ac6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wheelModel: {fileID: 4001691236808463290}
+  wheelModel: {fileID: 3374346348927640080}
   steerableWheel: 0
   motorizedWheel: 1
   wheelState: 0
@@ -1129,7 +1250,7 @@ WheelCollider:
     m_ExtremumValue: 1
     m_AsymptoteSlip: 0.5
     m_AsymptoteValue: 0.75
-    m_Stiffness: 1
+    m_Stiffness: 2
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -1139,6 +1260,29 @@ WheelCollider:
   m_LayerOverridePriority: 0
   m_Enabled: 1
   m_ProvidesContacts: 0
+--- !u!136 &732367291999791125
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6826784676834437975}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8324710773046235856
 GameObject:
   m_ObjectHideFlags: 0
@@ -1150,9 +1294,10 @@ GameObject:
   - component: {fileID: 7907836267720067126}
   - component: {fileID: 6245127524011979058}
   - component: {fileID: 155359284197108856}
+  - component: {fileID: 6001021879184384103}
   m_Layer: 0
   m_Name: RightFront (1)
-  m_TagString: Wheel
+  m_TagString: WheelModel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1225,6 +1370,29 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!136 &6001021879184384103
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8324710773046235856}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5000002
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940698}
 --- !u!1 &8747674305543643939
 GameObject:
   m_ObjectHideFlags: 0
@@ -1237,6 +1405,7 @@ GameObject:
   - component: {fileID: 700276610359033715}
   - component: {fileID: 6122929845869438154}
   - component: {fileID: 9141082497822292473}
+  - component: {fileID: 7437926779308835242}
   m_Layer: 0
   m_Name: RightFront
   m_TagString: Wheel
@@ -1279,7 +1448,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e5e2e494cfdc6940a68cc3c2fc4ac6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wheelModel: {fileID: 7907836267720067126}
+  wheelModel: {fileID: 8324710773046235856}
   steerableWheel: 1
   motorizedWheel: 0
   wheelState: 0
@@ -1322,6 +1491,29 @@ WheelCollider:
   m_LayerOverridePriority: 0
   m_Enabled: 1
   m_ProvidesContacts: 0
+--- !u!136 &7437926779308835242
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8747674305543643939}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8802941856546203179
 GameObject:
   m_ObjectHideFlags: 0

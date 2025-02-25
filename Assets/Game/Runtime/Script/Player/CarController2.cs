@@ -25,6 +25,8 @@ public class CarController2 : MonoBehaviour
 
     private void VehicleControl()
     {
+        //Calculate speed and acceleration using Mathf.Lerp. Motor Torque and steering angle won't go from 0 to 1 Immediately
+        //Instead, it will slowly increase until it reach top torque and speed
         float vInput = Input.GetAxis("Vertical");
         float hInput = Input.GetAxis("Horizontal");
         float forwardSpeed = Vector3.Dot(transform.forward, rigidBody.linearVelocity);

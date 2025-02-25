@@ -2,11 +2,11 @@ using UnityEngine;
 
 public class Wheel : MonoBehaviour
 {
-    private float driveFactor = 1;
+    //private float driveFactor = 1;
     private WheelCollider wheelCollider;
-    Vector3 wheelPosition;
-    Quaternion wheelRotation;
-    [SerializeField] Transform wheelModel;
+    //Vector3 wheelPosition;
+    //Quaternion wheelRotation;
+    [SerializeField] GameObject wheelModel;
     [SerializeField] public bool steerableWheel;
     [SerializeField] public bool motorizedWheel;
     [SerializeField] private WheelStates wheelState;
@@ -16,6 +16,7 @@ public class Wheel : MonoBehaviour
 
     private void Start()
     {
+        wheelModel.GetComponent<Renderer>().material.color = Color.black;
         wheelCollider = GetComponent<WheelCollider>();
     }
 
@@ -26,6 +27,7 @@ public class Wheel : MonoBehaviour
         //wheelModel.transform.rotation = wheelRotation;
     }
 
+    // Unsused/Unfinished method. Supposedly used to simulate tire damaged state.
     public float GetDriveFactor()
     {
         switch (wheelState)
@@ -40,7 +42,7 @@ public class Wheel : MonoBehaviour
                 return 1f;
         }
     }
-
+    // Same as above
     public float GetSteerFactor()
     {
         switch (wheelState)

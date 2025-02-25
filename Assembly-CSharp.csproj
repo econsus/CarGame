@@ -63,6 +63,7 @@
   <ItemGroup>
     <Compile Include="Assets\Game\Runtime\Script\Obstacles\IObstacle.cs" />
     <Compile Include="Assets\Game\Runtime\Script\Player\Wheel\Wheel.cs" />
+    <Compile Include="Assets\Game\Runtime\Script\Player\Wheel\WheelVisualChange.cs" />
     <Compile Include="Assets\Game\Runtime\Script\Player\Wheel\WheelColliderUpdate.cs" />
     <Compile Include="Assets\Game\Runtime\Script\Player\Wheel\IWheelState.cs" />
     <Compile Include="Assets\Game\Runtime\Script\Debug\DebugScript.cs" />
@@ -70,6 +71,7 @@
     <Compile Include="Assets\Game\Runtime\Script\Player\Wheel\WheelBlown.cs" />
     <Compile Include="Assets\Game\Runtime\Script\Player\CarController.cs" />
     <Compile Include="Assets\Game\Runtime\Script\Player\Wheel\WheelStates.cs" />
+    <Compile Include="Assets\Game\Runtime\Script\Obstacles\Spike.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Game\Runtime\Script\Player\CarStabilizer.cs" />
     <Compile Include="Assets\Game\Runtime\Script\Player\InputController.cs" />
@@ -78,8 +80,10 @@
     <Compile Include="Assets\Game\CarInputAction.cs" />
     <Compile Include="Assets\Game\Runtime\Script\Player\Wheel\WheelPristine.cs" />
     <Compile Include="Assets\Game\Runtime\Script\Player\Wheel\DriveAngle.cs" />
+    <Compile Include="Assets\Game\Runtime\Script\Player\Wheel\WheelColliderVariables.cs" />
     <Compile Include="Assets\Game\Runtime\Script\Camera\CameraFollow.cs" />
     <Compile Include="Assets\Game\Runtime\Script\Player\Wheel\WheelFlat.cs" />
+    <Compile Include="Assets\Game\Runtime\Script\Obstacles\TireRipper.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
