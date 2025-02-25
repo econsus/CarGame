@@ -7,12 +7,8 @@
       "RelativeMoniker": "D:0:0:{B9981384-D117-7A12-3788-2E12349BF11D}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\runtime\\script\\obstacles\\spike.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9981384-D117-7A12-3788-2E12349BF11D}|Assembly-CSharp.csproj|d:\\unity projects\\cargame\\assets\\game\\runtime\\script\\player\\wheel\\wheelvisualchange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B9981384-D117-7A12-3788-2E12349BF11D}|Assembly-CSharp.csproj|D:\\Unity Projects\\CarGame\\assets\\game\\runtime\\script\\player\\wheel\\wheelvisualchange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B9981384-D117-7A12-3788-2E12349BF11D}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\runtime\\script\\player\\wheel\\wheelvisualchange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9981384-D117-7A12-3788-2E12349BF11D}|Assembly-CSharp.csproj|D:\\Unity Projects\\CarGame\\assets\\game\\runtime\\script\\obstacles\\iobstacle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9981384-D117-7A12-3788-2E12349BF11D}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\runtime\\script\\obstacles\\iobstacle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B9981384-D117-7A12-3788-2E12349BF11D}|Assembly-CSharp.csproj|D:\\Unity Projects\\CarGame\\assets\\game\\runtime\\script\\player\\wheel\\wheel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,8 +19,12 @@
       "RelativeMoniker": "D:0:0:{B9981384-D117-7A12-3788-2E12349BF11D}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\runtime\\script\\player\\carcontroller2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9981384-D117-7A12-3788-2E12349BF11D}|Assembly-CSharp.csproj|D:\\Unity Projects\\CarGame\\assets\\game\\runtime\\script\\debug\\debugscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9981384-D117-7A12-3788-2E12349BF11D}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\runtime\\script\\debug\\debugscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B9981384-D117-7A12-3788-2E12349BF11D}|Assembly-CSharp.csproj|D:\\Unity Projects\\CarGame\\assets\\game\\runtime\\script\\obstacles\\tireripper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9981384-D117-7A12-3788-2E12349BF11D}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\runtime\\script\\obstacles\\tireripper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9981384-D117-7A12-3788-2E12349BF11D}|Assembly-CSharp.csproj|D:\\Unity Projects\\CarGame\\assets\\game\\runtime\\script\\camera\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9981384-D117-7A12-3788-2E12349BF11D}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\runtime\\script\\camera\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,8 +34,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CameraFollow.cs",
+              "DocumentMoniker": "D:\\Unity Projects\\CarGame\\Assets\\Game\\Runtime\\Script\\Camera\\CameraFollow.cs",
+              "RelativeDocumentMoniker": "Assets\\Game\\Runtime\\Script\\Camera\\CameraFollow.cs",
+              "ToolTip": "D:\\Unity Projects\\CarGame\\Assets\\Game\\Runtime\\Script\\Camera\\CameraFollow.cs",
+              "RelativeToolTip": "Assets\\Game\\Runtime\\Script\\Camera\\CameraFollow.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwBIAAABqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T04:16:06.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TireRipper.cs",
+              "DocumentMoniker": "D:\\Unity Projects\\CarGame\\Assets\\Game\\Runtime\\Script\\Obstacles\\TireRipper.cs",
+              "RelativeDocumentMoniker": "Assets\\Game\\Runtime\\Script\\Obstacles\\TireRipper.cs",
+              "ToolTip": "D:\\Unity Projects\\CarGame\\Assets\\Game\\Runtime\\Script\\Obstacles\\TireRipper.cs",
+              "RelativeToolTip": "Assets\\Game\\Runtime\\Script\\Obstacles\\TireRipper.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwB0AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T04:14:33.249Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -46,8 +70,7 @@
               "RelativeToolTip": "Assets\\Game\\Runtime\\Script\\Player\\Wheel\\WheelVisualChange.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T03:33:54.251Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-25T03:33:54.251Z"
             },
             {
               "$type": "Document",
@@ -57,7 +80,7 @@
               "RelativeDocumentMoniker": "Assets\\Game\\Runtime\\Script\\Obstacles\\Spike.cs",
               "ToolTip": "D:\\Unity Projects\\CarGame\\Assets\\Game\\Runtime\\Script\\Obstacles\\Spike.cs",
               "RelativeToolTip": "Assets\\Game\\Runtime\\Script\\Obstacles\\Spike.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAiwDAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-25T03:03:29.263Z",
               "EditorCaption": ""
@@ -65,50 +88,24 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "IObstacle.cs",
-              "DocumentMoniker": "D:\\Unity Projects\\CarGame\\Assets\\Game\\Runtime\\Script\\Obstacles\\IObstacle.cs",
-              "RelativeDocumentMoniker": "Assets\\Game\\Runtime\\Script\\Obstacles\\IObstacle.cs",
-              "ToolTip": "D:\\Unity Projects\\CarGame\\Assets\\Game\\Runtime\\Script\\Obstacles\\IObstacle.cs",
-              "RelativeToolTip": "Assets\\Game\\Runtime\\Script\\Obstacles\\IObstacle.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T03:02:45.288Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DebugScript.cs",
-              "DocumentMoniker": "D:\\Unity Projects\\CarGame\\Assets\\Game\\Runtime\\Script\\Debug\\DebugScript.cs",
-              "RelativeDocumentMoniker": "Assets\\Game\\Runtime\\Script\\Debug\\DebugScript.cs",
-              "ToolTip": "D:\\Unity Projects\\CarGame\\Assets\\Game\\Runtime\\Script\\Debug\\DebugScript.cs",
-              "RelativeToolTip": "Assets\\Game\\Runtime\\Script\\Debug\\DebugScript.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T02:01:47.681Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "Wheel.cs",
               "DocumentMoniker": "D:\\Unity Projects\\CarGame\\Assets\\Game\\Runtime\\Script\\Player\\Wheel\\Wheel.cs",
               "RelativeDocumentMoniker": "Assets\\Game\\Runtime\\Script\\Player\\Wheel\\Wheel.cs",
               "ToolTip": "D:\\Unity Projects\\CarGame\\Assets\\Game\\Runtime\\Script\\Player\\Wheel\\Wheel.cs",
               "RelativeToolTip": "Assets\\Game\\Runtime\\Script\\Player\\Wheel\\Wheel.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBIAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T01:01:59.663Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-25T01:01:59.663Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "CarController2.cs",
               "DocumentMoniker": "D:\\Unity Projects\\CarGame\\Assets\\Game\\Runtime\\Script\\Player\\CarController2.cs",
               "RelativeDocumentMoniker": "Assets\\Game\\Runtime\\Script\\Player\\CarController2.cs",
               "ToolTip": "D:\\Unity Projects\\CarGame\\Assets\\Game\\Runtime\\Script\\Player\\CarController2.cs",
               "RelativeToolTip": "Assets\\Game\\Runtime\\Script\\Player\\CarController2.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAABfAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwBsAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-25T00:55:18.887Z"
             }

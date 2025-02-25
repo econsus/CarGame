@@ -17,4 +17,9 @@ public class CarPhysics : MonoBehaviour
     {
         return carCenterOfMass;
     }
+
+    public float GetCurrentSpeed()
+    {
+        return rigidBody.linearVelocity.magnitude;
+    }
 }
