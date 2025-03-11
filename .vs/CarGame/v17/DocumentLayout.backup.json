@@ -19,11 +19,11 @@
       "RelativeMoniker": "D:0:0:{B9981384-D117-7A12-3788-2E12349BF11D}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\runtime\\script\\player\\carcontroller2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9981384-D117-7A12-3788-2E12349BF11D}|Assembly-CSharp.csproj|d:\\unity projects\\cargame\\assets\\game\\runtime\\script\\obstacles\\tireripper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B9981384-D117-7A12-3788-2E12349BF11D}|Assembly-CSharp.csproj|D:\\Unity Projects\\CarGame\\assets\\game\\runtime\\script\\obstacles\\tireripper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B9981384-D117-7A12-3788-2E12349BF11D}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\runtime\\script\\obstacles\\tireripper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9981384-D117-7A12-3788-2E12349BF11D}|Assembly-CSharp.csproj|d:\\unity projects\\cargame\\assets\\game\\runtime\\script\\camera\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B9981384-D117-7A12-3788-2E12349BF11D}|Assembly-CSharp.csproj|D:\\Unity Projects\\CarGame\\assets\\game\\runtime\\script\\camera\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B9981384-D117-7A12-3788-2E12349BF11D}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\runtime\\script\\camera\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -46,8 +46,7 @@
               "RelativeToolTip": "Assets\\Game\\Runtime\\Script\\Camera\\CameraFollow.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAxwBIAAABqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T04:16:06.946Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-25T04:16:06.946Z"
             },
             {
               "$type": "Document",
@@ -59,8 +58,7 @@
               "RelativeToolTip": "Assets\\Game\\Runtime\\Script\\Obstacles\\TireRipper.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAYwB0AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T04:14:33.249Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-25T04:14:33.249Z"
             },
             {
               "$type": "Document",
@@ -72,8 +70,7 @@
               "RelativeToolTip": "Assets\\Game\\Runtime\\Script\\Player\\Wheel\\WheelVisualChange.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T03:33:54.251Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-25T03:33:54.251Z"
             },
             {
               "$type": "Document",
@@ -98,8 +95,7 @@
               "RelativeToolTip": "Assets\\Game\\Runtime\\Script\\Player\\Wheel\\Wheel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T01:01:59.663Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-25T01:01:59.663Z"
             },
             {
               "$type": "Document",
@@ -111,8 +107,7 @@
               "RelativeToolTip": "Assets\\Game\\Runtime\\Script\\Player\\CarController2.cs",
               "ViewState": "AgIAABoAAAAAAAAAAAAgwBsAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T00:55:18.887Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-25T00:55:18.887Z"
             }
           ]
         }

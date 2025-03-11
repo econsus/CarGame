@@ -10,7 +10,7 @@ public class Spike : MonoBehaviour, IObstacle
     }
     public void DamageWheel(GameObject wheelObject)
     {
-        Debug.Log(wheelObject);
+        //Debug.Log(wheelObject);
         //Modify Forward Friction
         WheelFrictionCurve frictionForward = wheelObject.GetComponent<WheelCollider>().forwardFriction;
         frictionForward.stiffness = 5f;
